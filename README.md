@@ -1,8 +1,10 @@
-# Timber Forecasting Uncertainty Dashboard
+# Timber Forecast Uncertainty Dashboard
 
-Interactive Streamlit dashboard showing how uncertainty in forest measurements can propagate through a deterministic timber-volume forecast.
+Live app: https://timber-forecast-uncertainty-dashboard-shwetadalal.streamlit.app
 
-The app uses a public-safe synthetic example inspired by a Grand Est forest region in France. It is not an operational forest inventory model and does not use confidential data.
+This project is an interactive Streamlit dashboard showing how uncertainty in forest inventory inputs, such as top height and DBH, can propagate into timber-volume forecasts using Monte Carlo simulation.
+
+The dashboard uses synthetic public-safe data for a Grand Est-style forest region in France. It demonstrates a simplified deterministic timber forecast, then adds input uncertainty to produce forecast bands for Norway spruce, oak, and total standing timber volume.
 
 ## What the dashboard demonstrates
 
